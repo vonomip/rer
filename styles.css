@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+#potato {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+#message {
+    margin-top: 20px;
+    font-size: 24px;
+    color: green;
+}
